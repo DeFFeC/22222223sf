@@ -1,0 +1,59 @@
+.App{
+  width: 1024px;
+  height: 400px;
+  margin: auto;
+  padding-top: 100px;
+}
+.block-main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(247, 238, 228);
+}
+.BlockCar{
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin-top: 5px;
+  height: 50px;
+  background-color: rgb(235, 230, 224);
+}
+.block-car-btn{
+  display: flex;
+  justify-content: space-between;
+  width: 738px;
+  height: 50px;
+  background-color: rgb(235, 230, 224);
+  cursor: pointer;
+}
+.item-block{
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  padding-top: 11px;
+}
+.car-block-item{
+  width: 160px;
+  text-align: center;
+}
+.free{
+  color: greenyellow;
+}
+.info-car{
+  width: 100%;
+  height: 160px;
+  display: none;
+  background-color: rgb(241, 238, 234);
+}
+.display{
+  display: block;
+}
+.red{
+  color: red;
+  cursor: pointer;
+}
+.green{
+  color: greenyellow;
+  cursor: pointer;
+}
